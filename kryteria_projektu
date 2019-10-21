@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+-- POZIOM 1 (dst)
+-------------------------------------------------------------------------------
++ co najmniej 3 komponenty
++ zastosowanie języka stylów innego niż CSS (np. SCSS)
++ poprawne rozdzielenie widoku i logiki
++ zastosowanie biblioteki "CSS" (Bootstrap, Material itp.)
++ aktywne (!) korzystanie z VCS
+
+-------------------------------------------------------------------------------
+-- POZIOM 2 (db)
+-------------------------------------------------------------------------------
+(...poziom_1)
++ więcej komponentów i (sensowny) podział na co najmniej 2 moduły
++ zastosowanie routera i nawigacji
++ połączenie z zewnętrznym API dostarczającym dane
++ wykorzystanie gotowych modułów do wyświetlenia danych w postaci interaktywnej
+  tabeli (możliwość sortowania, filtrowania itp.) 
++ zaimplementowanie i wykorzystanie tzw. pipes do formatowania danych w widoku
++ zastosowanie ikon (np. FontAwesome)
++ wprowadzenie okienka typu modal do potwierdzenia operacji (np. usunięcia)
+
+-------------------------------------------------------------------------------
+-- POZIOM 3 (bdb)
+-------------------------------------------------------------------------------
+(...poziom_2)
++ wprowadzenie formy wizualizacji danych (wykresy, grafy, mapy itp.)
++ wprowadzenie formularza z walidacją pól
++ zastosowanie mechanizmu lokalnego składowania danych (LocalStorage lub 
+  SessionStorage)
++ zaimplementowanie co najmniej jednej dyrektywy
++ zaawansowane zastosowanie Promise lub Observable
++ zrealizowanie uploadu plików z drag&drop i paskiem postępu
++ wykorzystanie ngx-translate do internacjonalizacji
++ zaimplementowanie zestawu podstawowych testów komponentów
